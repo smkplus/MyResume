@@ -37,6 +37,24 @@ e. Others
       HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
 /* ------------------------------------------------------------------ */
 
+
+/* ------------------------------------------------------------------ */
+/* a. js-flickity */
+
+* {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+ 
+ body { font-family: sans-serif; }
+ 
+ 
+ .gallery-cell {
+    margin-right: 10px;
+    width: 60%;
+ }
+/* ------------------------------------------------------------------ */
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,

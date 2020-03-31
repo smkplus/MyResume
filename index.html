@@ -21,10 +21,14 @@
 	<link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 
    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
+   <script src="js/modernizr.js"></script>
+   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 
    <!-- Favicons
 	================================================== -->
@@ -57,7 +61,7 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Seyed Morteza Kamali</h1>
-            <h3>I'm a <span>Game Developer</span>, <span>Programmer</span> and <span>Graphics Programmer</span>. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            <h3>I'm a <span>Game Developer</span>, <span>Technical Artist</span> and <span>Graphics Programmer</span>. Let's <a class="smoothscroll" href="#about">start scrolling</a>
             and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul class="social">
@@ -182,20 +186,43 @@
                   <h3>Hamrah Pardazan</h3>
                   <p class="info">Game Programmer <span>&bull;</span> <em class="date">Sep 2019 - March 2020</em></p>
                   
-                  <p><b>🎲 Magical Dice</b></p>
+                  <p><h4>🎲 Magical Dice</h4></p>
                   <p>
  
                      Magical Dice is an amazing board game. Roll the dice, match 3 same dice to merge magic dice. It's a offline game. Easy to play and hard to master.
                   </p>
 
+                   <!--  Slideshow  -->
 
-                  <p><b>🃏 Marshal</b></p>
+                     <div class="gallery js-flickity"
+                      data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+                     <div class="gallery-cell"> <img src="images\games\magicaldice\1.png"/> </div>
+                     <div class="gallery-cell"> <img src="images\games\magicaldice\2.png"/> </div>
+                     <div class="gallery-cell"> <img src="images\games\magicaldice\3.png"/> </div>
+                     <div class="gallery-cell"> <img src="images\games\magicaldice\4.png"/> </div>
+                     <div class="gallery-cell"> <img src="images\games\magicaldice\5.png"/> </div>
+                   </div>
+                   
+
+
+
+                  <p><h4>🃏 Marshal</h4></p>
 
                   <p>
                      Marshal is a Court piece card game. Court piece or hokm (Persian: حکم‎) (also known as Rung or Rang) is similar to the card game whist in which eldest hand makes trumps after the first five cards have been dealt, and trick-play is typically stopped after one party has won seven tricks.
                   </p>
 
-                  <p><b>🧩 Puzzle Cube</b></p>
+                                     <!--  Slideshow  -->
+
+                                     <div class="gallery js-flickity"
+                                     data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+                                    <div class="gallery-cell"> <img src="images\games\marshal\1.jpg"/> </div>
+                                    <div class="gallery-cell"> <img src="images\games\marshal\2.jpg"/> </div>
+                                    <div class="gallery-cell"> <img src="images\games\marshal\3.jpg"/> </div>
+                                    <div class="gallery-cell"> <img src="images\games\marshal\4.jpg"/> </div>
+                                  </div>
+
+                  <p><h4>🧩 Puzzle Cube</h4></p>
 
                   <p>
                      Puzzle Cube is easy to play, fun and relaxing! Choose from thousands of beautiful puzzles and play them with the number of pieces you want. It's countless hours of entertainment for any age.                  </p>
@@ -211,7 +238,7 @@
                   <h3>GunSmokers</h3>
                   <p class="info">Game Programmer <span>&bull;</span> <em class="date">Jul 2019 - Aug 2019</em></p>
                   
-                  <p><b>🏜 Gun Smoke</b></p>
+                  <p><h4>🏜 Gun Smoke</h4></p>
                   <p>
  
                      Gun.Smoke is a 1985 vertical scrolling shooter arcade game by Capcom. This Wild West-themed game was designed by Yoshiki Okamoto. Gun.Smoke centers on a character named Billy Bob in the NES version, a bounty hunter who is after vicious criminals of the Wild West. We're trying to remake this game :D                  </p>
@@ -226,7 +253,7 @@
                   <h3>Green Wings</h3>
                   <p class="info">Game Programmer <span>&bull;</span> <em class="date">Jan 2018 - Jun 2019</em></p>
                   
-                  <p><b>🚘Warrior Cars</b></p>
+                  <p><h4>🚘Warrior Cars</h4></p>
                   <p>
  
                      Warrior Cars is a game like Twisted Metal in vehicular combat genre.
@@ -234,7 +261,7 @@
                    </p>
 
                         
-                  <p><b>👨‍🌾 Young Farmer</b></p>
+                  <p><h4>👨‍🌾 Young Farmer</h4></p>
 
                   <p>
                      The player's uncle is unable to take care of his farm any more, so he hands over the responsibility of caring for the farm to the player. The game starts with a scarecrow teaching the player about harvesting wheat. By selling crops/products, the player earns coins which can be used to buy production buildings, pets and decoration items. By doing so, they also earn experience points (XP), with which they level up.                  
@@ -250,7 +277,7 @@
                   <h3>MasterMind</h3>
                   <p class="info">Game Programmer <span>&bull;</span> <em class="date">Sep 2017 – Nov 2017</em></p>
                   
-                  <p><b>🎖️ In the siege</b></p>
+                  <p><h4>🎖️ In the siege</h4></p>
                   <p>
                      In the siege is a FPS shooters with easy and intuitive controls, vivid 3D graphics and exciting gameplay.                  
                   </p>
@@ -265,7 +292,7 @@
                   <h3>Resane Gostare Benisi</h3>
                   <p class="info">Graphics Programmer <span>&bull;</span> <em class="date">Jun 2017 – Aug 2017</em></p>
                   
-                  <p><b>🎖️Amaliyate Enhedam 3</b></p>
+                  <p><h4>🎖️Amaliyate Enhedam 3</h4></p>
                   <p>
  
                      The 2006 Lebanon War, also called the 2006 Israel–Hezbollah War and known in Lebanon as the July War and in Israel as the Second Lebanon War, was a 34-day military conflict in Lebanon, Northern Israel and the Golan Heights.
