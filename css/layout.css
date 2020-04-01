@@ -325,85 +325,85 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
+.unity {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: unity 2s ease;
+  	-webkit-animation: unity 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.programming {
+  	width: 70%;
+  	-moz-animation: programming 2s ease;
+  	-webkit-animation: programming 2s ease;
+}
+.mathematics {
+  	width: 60%;
+  	-moz-animation: mathematics 2s ease;
+  	-webkit-animation: mathematics 2s ease;
+}
+.designpatterns {
+  	width: 65%;
+  	-moz-animation: designpatterns 2s ease;
+  	-webkit-animation: designpatterns 2s ease;
+}
+.problemsolving {
+  	width: 70%;
+  	-moz-animation: problemsolving 2s ease;
+  	-webkit-animation: problemsolving 2s ease;
+}
+.algorithms {
+  	width: 60%;
+  	-moz-animation: algorithms 2s ease;
+  	-webkit-animation: algorithms 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
+@-moz-keyframes unity {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes programming {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
-
-@-webkit-keyframes photoshop {
+@-moz-keyframes mathematics {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
+@-moz-keyframes designpatterns {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes html5 {
+@-moz-keyframes problemsolving {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes algorithms {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+
+@-webkit-keyframes unity {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes programming {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes mathematics {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes designpatterns {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }
+}
+@-webkit-keyframes problemsolving {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes algorithms {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -427,7 +427,6 @@ ul#nav li.current a { color: #F06000; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
    overflow: hidden;
    position: relative;
 
